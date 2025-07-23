@@ -11,7 +11,7 @@ pip install aichat
 ## Usage
 
 ```python
-from aichat import AIChat
+from generativellm import AIChat
 
 chatbot = AIChat(token="your-gemini-api-key", model="gemini-pro")
 
