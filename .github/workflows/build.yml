@@ -1,4 +1,4 @@
-name: Build aichat Package
+name: Build generativellm Package
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     tags:
       - 'v*.*.*'
+  workflow_dispatch:   # <-- This line adds the manual trigger
 
 jobs:
   build-package:
