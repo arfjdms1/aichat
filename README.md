@@ -1,11 +1,11 @@
-# aichat
+# generativellm
 
-`aichat` is a simple wrapper around the Gemini REST API using pure HTTP requests. It lets you create chat sessions and generate responses.
+`generativellm` is a simple wrapper around the Gemini REST API using pure HTTP requests. It lets you create chat sessions and generate responses.
 
 ## Installation
 
 ```bash
-pip install aichat
+pip install generativellm
 ```
 
 ## Usage
