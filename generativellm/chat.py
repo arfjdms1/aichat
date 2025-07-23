@@ -20,7 +20,7 @@ class AIChat:
         Returns:
             str: AI-generated response
         """
-        if len(history) % 2 = 0:
+        if len(history) % 2 == 0:
             raise ValueError("History must have odd length: alternating user and AI messages.")
 
         # Construct messages
