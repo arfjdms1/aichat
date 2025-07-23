@@ -1,1 +1,3 @@
-3
+from .chat import AIChat
+
+__all__ = ["AIChat"]
